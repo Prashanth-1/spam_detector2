@@ -9,8 +9,8 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Download the model and TF-IDF files from GitHub
-model_url = 'https://github.com/Prashanth-1/Spam-Detector/blob/main/Model.pkl'
-tfidf_url = 'https://github.com/Prashanth-1/Spam-Detector/blob/main/TFIDF.pkl'
+model_url = 'https://github.com/Prashanth-1/spam_detector2/blob/main/Model.pkl'
+tfidf_url = 'https://github.com/Prashanth-1/spam_detector2/blob/main/TFIDF.pkl'
 
 response_model = requests.get(model_url)
 response_tfidf = requests.get(tfidf_url)
